@@ -18,7 +18,11 @@ outer.addEventListener("contextmenu", ()=> {
     alert("Right click is Blocked ")
 })
 
+
+
 const over= document.querySelector("#overall");
-over.addEventListener("contextmenu", ()=> {
-    alert("Right Click is Disabled")
+over.addEventListener("contextmenu", (e)=> {
+    e.preventDefault();
+ console.log("Right Click is Blocked ")
 })
+
