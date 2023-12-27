@@ -8,4 +8,11 @@ console.log(ques.innerText)
 
 const namme = document.querySelector("#inputTxt");
 
-console.log(namme.innerText);
+console.log(inputTxt.placeholder)
+console.log(inputTxt.className)
+
+//const sometxt = document.getElementById("someTxt");
+// const s = document.querySelector("#someTxt");
+ const n = document.getElementsByName("inputTxt");
+console.log(n[0].placeholder);
+
