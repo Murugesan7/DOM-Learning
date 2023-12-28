@@ -7,21 +7,34 @@
   <title> What is Your Name App </title>
 </head>
 
-<body class="bg-blue-300 " id="outer" oncontextmenu="return false">
+
+<body class="bg-blue-300 " id="outer" oncontextmenu="return false" ">
 
   <div class="max-w-xl mx-auto mt-20 bg-white rounded space-y-10 p-5" id = "inner"> 
 
     <h4 id="ques" class="font-semibold text-xl">What is Your Name ?</h4>
 
-    <p id="someTxt">some data</p>
+    <p id="someTxt" class="px-5 py-2 rounded" style="color: red;"></p>
 
-    <input id="inputTxt"  name="inputTxt" type="text" placeholder="Enter your Name" required 
+    <input id="inputTxt"  name="inputTxt" type="search" placeholder="Enter your Name" required 
     class="px-4 py-2 rounded bg-gray-200 w-full" />
 
 
     <button class="px-3 py-2 rounded bg-indigo-500 text-white w-full" id="btn" >Proceed </button>
 
+    <p id="changeBg" class="px-5 py-2 text-gray-800 text-center text-small hover:underline cursor-pointer"> Change My Backgroung Colour </p>
+
   </div>
+
+  <div class="bg-white max-w-xl mx-auto m-20 p-10">
+  <span id="cyber">Hello CyberDude</span>
+  </div>
+
+
+  <div id="trailDiv">
+    <span id="trailSpan">Hello</span>
+  </div>
+
 
   <script src="./assserts/JS/getinput.js"></script>
 
